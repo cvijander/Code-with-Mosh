@@ -1,0 +1,19 @@
+body {
+  margin: 10px;
+}
+
+p {
+  color: orange;
+}
+
+#products {
+  color: aqua;
+}
+
+.product {
+  color: blueviolet;
+}
+
+.product p {
+  color: chartreuse;
+}
