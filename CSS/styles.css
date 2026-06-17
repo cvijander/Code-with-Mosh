@@ -17,3 +17,33 @@ p {
 .product p {
   color: chartreuse;
 }
+
+a[target="_blank"] {
+  color: aquamarine;
+}
+
+/*
+primer sa http i celim nazivom moze da dovede do greske zbog jednog slova , karaktera 
+a[href="https://google.com"]
+{
+
+}
+
+da bi se to resilo onda samo kazemo sledece 
+*/
+
+a[href*="google"] {
+  color: coral;
+}
+
+a[href^="https"] {
+  background-color: green;
+}
+
+a[href$=".com"] {
+  color: black;
+}
+
+a[href^="https"] [href$=".rs"] {
+  color: red;
+}
